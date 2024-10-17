@@ -39,7 +39,7 @@ public class LinearCalculatorTest {
         studentOutput += "\nThe distance between the two points is: " + c.distance();
         studentOutput += "\n"+c.findSymmetry();
         studentOutput += "\n"+c.Midpoint();
-     
+    
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -66,8 +66,4 @@ public class LinearCalculatorTest {
      
         assertEquals(expectedOutput,studentOutput);
     }
-
-  
-
-    
 }
